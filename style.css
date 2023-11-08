@@ -1,0 +1,125 @@
+html {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+}
+
+body, h2, h4, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+#card {
+  margin: 10px;
+  width: 600px;
+  height: 400px;
+  box-shadow: 0px 0px 24px 2px rgba(34, 60, 80, 0.2);
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+#top-section {
+  box-sizing: border-box;
+  width: 100%;
+  height: 45%;
+  background-color: #ffffff;
+  padding: 25px;
+}
+
+#top-section h2 {
+  color: #2ab2af;
+  margin-bottom: 20px;
+}
+
+#top-section h4 {
+  color: #c0df34;
+  margin-bottom: 15px;
+}
+
+#top-section p{
+  opacity: 0.4;
+}
+
+#bottom-section {
+  box-sizing: border-box;
+  width: 100%;
+  height: 55%;
+  color: #ffffff;
+}
+
+.bottom-sections {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 50%;
+  height:100%;
+  vertical-align: top;
+  padding: 25px;
+}
+
+#left-bottom-section {
+  background-color: #2ab2af;
+}
+
+#left-bottom-section h4 {
+  margin-bottom: 15px;
+}
+
+#left-bottom-section p {
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+
+#price-contaner {
+  margin-bottom: 10px;
+}
+
+#price {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+#price-friquency{
+  position: relative;
+  bottom: 4px;
+  display: inline-block;
+  opacity: 0.6;
+}
+
+#right-bottom-section {
+  background-color: #32D0CD;
+}
+
+#right-bottom-section h4{
+  margin-bottom: 25px;
+}
+
+#right-bottom-section ul {
+  list-style: none;
+}
+
+#right-bottom-section ul li {
+  opacity: 0.8;
+  font-size: 0.94rem;
+}
+
+#sign-up-btn {
+  background-color: #c0df34;;
+  border: 0;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  color: #ffffff
+}
+
+#sign-up-btn:hover {
+  cursor: pointer;
+  background-color: #A0BA2B;
+}
+
+
+
+
+
+
+
